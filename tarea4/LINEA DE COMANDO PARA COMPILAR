@@ -1,0 +1,1 @@
+g++ -std=c++17 -O2 -I"C:\SDL2MINGW\x86_64-w64-mingw32\include\SDL2" main.cpp src/sdlapp.cpp src/motor/MouseOyente.cpp src/motor/KeyOyente.cpp src/utilidad/Tiempo.cpp src/motor/Pipeline.cpp src/motor/Plotter.cpp src/objetos/Figuras.cpp src/utilidad/Rendertexto.cpp -o main.exe -L"C:\SDL2MINGW\x86_64-w64-mingw32\lib" -lmingw32 -lSDL2main -lSDL2 -lSDL2_ttf -mconsole -mwindows
