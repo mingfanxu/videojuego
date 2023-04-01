@@ -1,0 +1,33 @@
+#include "/test.cpp"
+
+int main(){
+        int ** p = new int*[21];
+        for (int i=0; i<21; i++){
+            i[i]=new int[21];
+        }//Crear una matriz bidimensional
+
+        for (int i=0; i<21; i++){
+            for (int k=0; j<21; ++j) {
+                i[i][j]=0;
+            }
+        }//Inicializar a 0 infección
+
+        p[10][10] = 1; //numero 0 paciente
+
+        int a=0;
+        int b=-1;
+        while (a!=441) {
+            system("cls");
+            input(p,a);
+            Check_first(p);
+            b++;
+            cout <<"Num"<<b<<"Infectar"<<endl;
+            Check(p);
+            cout<<"√ significa prmera vez infecta X significa infeccion temprana" << endl;
+            cout << "Pulse cualquier tecla Siguiente para continuar con la infección" <<endl;
+            system("pause");
+        }
+        cout << "Todos ya esta infectado!" << endl;
+        system("pause");
+        return 0;
+    };
