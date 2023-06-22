@@ -1,0 +1,30 @@
+<SpriteAtlas imagePath="assets/spritesheets/zombie_tilesheet.png">
+    <Info name="zombie_sprite" width="80" height="110"/>
+    <Idle name="Idle_frames">
+        <Frames name="Idle_0" x="0" y="0" width="80" height="110"/>
+    </Idle>
+    <Jump name="Jump_frames">
+        <Frames name="Jump_0" x="80" y="0" width="80" height="110"/>
+        <Frames name="Jump_1" x="160" y="0" width="80" height="110"/>
+        <Frames name="Jump_2" x="240" y="0" width="80" height="110"/>
+    </Jump>
+    <Walk name="Walk_frames">
+        <Frames name="Walk_0" x="0" y="110" width="80" height="110"/>
+        <Frames name="Walk_1" x="80" y="110" width="80" height="110"/>
+        <Frames name="Walk_2" x="160" y="110" width="80" height="110"/>
+        <Frames name="Walk_3" x="240" y="110" width="80" height="110"/>
+        <Frames name="Walk_4" x="320" y="110" width="80" height="110"/>
+        <Frames name="Walk_5" x="400" y="110" width="80" height="110"/>
+        <Frames name="Walk_6" x="480" y="110" width="80" height="110"/>
+        <Frames name="Walk_7" x="560" y="110" width="80" height="110"/>
+        <Frames name="Walk_8" x="640" y="110" width="80" height="110"/>
+    </Walk>
+    <Hit name="Hit_frames">
+        <Frames name="Hit_0" x="80" y="220" width="80" height="110"/>
+        <Frames name="Hit_1" x="240" y="220" width="80" height="110"/>
+    </Hit>
+    <Attack name="Attack_frames">
+        <Frames name="Attack_0" x="560" y="0" width="80" height="110"/>
+        <Frames name="Attack_1" x="640" y="0" width="80" height="110"/>
+    </Attack>
+</SpriteAtlas>
